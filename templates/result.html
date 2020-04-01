@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+			ML App
+		</div>
+		<h2>Voomerang Phishing Detector</h2>
+		
+	</div>
+	</header>
+	<p style="color:blue;font-size:20;text-align: center;"><b>Results for Comment</b></p>
+
+	<div class="results">
+
+		{% if prediction == 1%}
+
+		<h2 style="color:red;">Potential Phishing email, open email in Voomerang app to further investigate</h2>
+
+		</div>
+
+
+
+	<div class="ml-container">
+
+		<form action="{{ url_for('addinfo')}}" method="POST">
+
+		<input type="submit" class="btn-info" value="reademail">
+
+	</form>
+
+	</div>
+
+		{% elif prediction == 0%}
+
+		<h2 style="color:blue;">Phishing not detected email is clean</h2>
+
+		{% endif %}
+
+	</div>
+
+
+</body>
+</html>
