@@ -4,7 +4,6 @@ import pickle
 import csv
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
-import joblib
 from sklearn.model_selection import train_test_split
 import boomer
 
@@ -49,22 +48,19 @@ def predict():
     sss = [sss]
     vects = cv.transform(sss).toarray()
     my_predictionzz = clf.predict(vects)
-
+    #devnull='BC9JRhHDadNGQVa'
     if my_predictionzz == 1:
         print("spam")
         message_content="spam", sss
         with open("spam.csv",'a+') as spmsg:
             addit = csv.writer(spmsg)
             addit.writerow(message_content)
-
+    
 
     elif my_predictionzz == 0:
         print("ham")
 
-    # Alternative Usage of Saved Model
-    # joblib.dump(clf, 'NB_spam_model.pkl')
-    # NB_spam_model = open('NB_spam_model.pkl','rb')
-    # clf = joblib.load(NB_spam_model)
+   
 
     if request.method == 'POST':
         message = request.form['message']
