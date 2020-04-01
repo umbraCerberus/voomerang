@@ -12,22 +12,22 @@ tags:
 
 ---
 
-# Introduction
-> paragraph
-## set Up
+# Requirements
+>  set Up
 
 ### steps
 
 ```
-code blocks
-
+pip3
+run pip3 install -r requirements.txt
+##
 ```
 ######
 code is used for images
 ![Minion](https://octodex.github.com/images/minion.png)
 
 ## Conclusion
-WIth hacker groups like the SHadow Brokers I expect to see more NSA toll leaks or tool leaks in general.  
+ 
 
 
 ## References
