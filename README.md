@@ -51,7 +51,7 @@ If using the OVA file
   
 [Multinomial Naive Bayes Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html)
 
-[Naive Bayes Classifier] (https://www.geeksforgeeks.org/naive-bayes-classifiers/)
+[Naive Bayes Classifier](https://www.geeksforgeeks.org/naive-bayes-classifiers/)
 
 [Reading emails with Python](https://docs.python.org/3/library/email.examples.html)
 
