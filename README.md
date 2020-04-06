@@ -14,8 +14,7 @@ tags:
 
 
 # Overview
-  Project Voomerang is aimed at stopping phishing emails by using machine learning. A [Naive Bayes classifier](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html) will be used to read the email    
-  content and predict if the email is phishing or not based on the data you feed it.
+  Project Voomerang is aimed at stopping phishing emails by using machine learning. A [Naive Bayes classifier](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html) will be used to read the email content and predict if the email is phishing or not based on the data you feed it.
   
 # Requirements
 >  VMware or Virtual Box
