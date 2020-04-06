@@ -36,7 +36,7 @@ run pip3 install -r requirements.txt
 apt-update
 apt-get install python3-pip
 ```
-![](https://www.youtube.com/watch?v=Tf1Zdledf8c)
+[Voomerang](https://www.youtube.com/watch?v=Tf1Zdledf8c)
 
 If using the OVA file
 
