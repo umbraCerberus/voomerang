@@ -36,9 +36,11 @@ run pip3 install -r requirements.txt
 apt-update
 apt-get install python3-pip
 ```
+![](https://www.youtube.com/watch?v=Tf1Zdledf8c)
 
 If using the OVA file
-work in progress..
+
+(work in progress..)
 
 ###### code is used for images
 ![Minion](https://octodex.github.com/images/minion.png)
