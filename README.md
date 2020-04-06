@@ -19,8 +19,11 @@ tags:
   
 # Requirements
 >  VMware or Virtual Box
+
 >  8 GB RAM
+
 >  30 GB HDD/SSD (min.)
+
 >  Python 3.7.x
 
 ### steps
