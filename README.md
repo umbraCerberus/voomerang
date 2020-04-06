@@ -36,20 +36,23 @@ run pip3 install -r requirements.txt
 apt-update
 apt-get install python3-pip
 ```
-[Voomerang](https://www.youtube.com/watch?v=Tf1Zdledf8c)
+[Voomerang gitclone](https://www.youtube.com/watch?v=Tf1Zdledf8c)
 
 If using the OVA file
 
 (work in progress..)
 
-###### code is used for images
-![Minion](https://octodex.github.com/images/minion.png)
 
-image src. https://octodex.github.com/images/minion.png
-## Conclusion
- 
+## Demo 
+[Voomerang demo](https://www.youtube.com/watch?v=HrRXbCytF5E)
 
 
 ## References
-links [MS17](https://github.com/rapid7/metasploit-framework/pull/9473)  
-[CVE-details](https://www.cvedetails.com/cve/CVE-2017-0143/)  
+  
+[Multinomial Naive Bayes Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html)
+
+[Naive Bayes Classifier] (https://www.geeksforgeeks.org/naive-bayes-classifiers/)
+
+[Reading emails with Python](https://docs.python.org/3/library/email.examples.html)
+
+[Spam filtering with Naive Bayes](https://towardsdatascience.com/spam-filtering-using-naive-bayes-98a341224038)
