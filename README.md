@@ -12,20 +12,35 @@ tags:
 
 ---
 
+
+# Overview
+  Project Voomerang is aimed at stopping phishing emails by using machine learning. A Naive Bayes classifier will be used to read the email    
+  content and predict if the email is phishing or not based on the data you feed it.
+  
 # Requirements
->  set Up
+>  VMware or Virtual Box
+>  8 GB RAM
+>  30 GB HDD/SSD (min.)
+>  Python 3.7.x
 
 ### steps
+ If downloading from source do a gitclone and use pip3 to install requirements by running command listed below
 
 ```
-pip3
+# pip3
 run pip3 install -r requirements.txt
-##
+# if pip3 not installed
+apt-update
+apt-get install python3-pip
 ```
-######
-code is used for images
+
+If using the OVA file
+work in progress..
+
+###### code is used for images
 ![Minion](https://octodex.github.com/images/minion.png)
 
+image src. https://octodex.github.com/images/minion.png
 ## Conclusion
  
 
